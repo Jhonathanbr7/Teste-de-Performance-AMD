@@ -1,0 +1,2 @@
+# Teste de Performance AMD
+ 
