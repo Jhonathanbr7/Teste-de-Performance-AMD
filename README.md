@@ -1,26 +1,24 @@
 # Teste de Performance AMD
 
-O programa consiste em um teste de performance para placas de video AMD, avaliando qual a porcentagem de tempo em que o FPS estava igual ou acima do requisitado pelo usuário.
-Ajudando assim o usuário a descobrir se deve ou não melhorar as configurações para aumentar o desempenho do jogo.
+Como Usar:
 
-**Como funciona**
+•	Primeiramente é necessário ter o AMD adrenalin instalado, que por sua vez pode ser encontrado em: https://www.amd.com/pt/support
 
-Esta API funciona da seguinte maneira:
+•	Segundamente, já com o programa instalado, é necessário apertar as teclas ‘Alt+R’ após isso, abrir a aba “Desempenho” ou “Performance” caso seu pc esteja em inglês (indicador 1).
 
-1.Com o AMD adrenalin instalado, você deve abrir o jogo no qual deseja fazer o teste de performance.
+•	Agora clique na aba “métricas” (indicador 2), e logo após, clique em “rastreamento” (indicador 3).
 
-2.Após aberto o jogo, você deve apertar o atalho 'Alt+R' para abrir o AMD adrenalin em modo de sobreposição.
+•	Por último, clique na opção mais a direita do campo “Selecionar métricas” ou “Select Metrics” caso seu pc esteja em inglês (indicador 4).
 
-3.Dentro do AMD adrenalin, agora você deve ir para a aba 'Desempenho' e clicar em "Começar a Registrar".
+•	Para começar a registrar, clique no botão” Começar a Registrar” ou “Start Logging” caso seu pc esteja em inglês (indicador 5).
 
-4.Agora você precisa de apertar novamente 'Alt+R' para voltar pro jogo, e jogue pelo tempo que achar necessario fazer a análise.
+•	Para parar de registrar, é necessário apertar as teclas ‘Alt+R’ clique no botão” Parar de Registrar” ou “Stop Logging” caso seu pc esteja em inglês (no mesmo local do indicador 5).
 
-5.Quando estiver satisfeito com o tempo de analize, aperte 'Alt+R' e clique em "Parar de Registrar", feito isso o programa te mostrará o diretório onde foi salvo a base de dados em ".csv".
+•	Agora que já temos a nossa base de dados, é preciso apenas executar o programa “Teste de performance AMD_v3.exe”
 
-6.Você agora deve copiar o arquivo 'Teste de performance AMD.ipynb' para o diretório da base de dados, e renomear a base de dados para "base.csv".
+•	Com o programa aberto, basta escolher qual parâmetro é desejado para a análise e clicar em “Analisar”
 
-7.Feito isso, você pode executar o arquivo pelo jupyter-notebook, caso não tenha o 'pandas' instalado, basta digitar '!pip install pandas' e executar a célula.
+•	Pronto, agora já temos o nosso gráfico, temos a opção de salvar o gráfico se necessário.
 
-8.Com o pandas instalado, basta executar a célula e digitar qual é o parâmetro de FPS desejado e em seguida apertar o enter.
+OBS: para visualizar os indicadores é necessário abir o arquivo "Como usar.docx" na página inicial do repositório.
 
-9.Feito isso o programa mostrará uma mensagem na tela informando qual foi a porcentagem de tempo que o jogo rodou com a taxa de quadros desejada.
